@@ -4,7 +4,7 @@
 #
 # http://shiny.rstudio.com
 #
-setwd("C:\\Users\\leroychen\\Documents\\shinydashboard")
+#setwd("C:\\Users\\leroychen\\Documents\\shinydashboard")
 load("user_pay_1.RData")
 actionuser<-read.csv("actionuser.csv",T,fileEncoding = "UTF-8")
 actionuser<-actionuser[,c("用户id","最后一周登录天数","最后一周登录次数","最后一周0.8点登录次数","最后一周8.18点登录次数","最后一周18.24点登录次数","注册至今距离天数","是否付费")]
